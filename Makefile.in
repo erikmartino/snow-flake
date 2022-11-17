@@ -1,0 +1,13 @@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+bindir = @bindir@
+
+hejverden: hello.c
+	$(CC) -Wall -O3 -o hejverden hello.c
+
+clean:
+	rm -f hejverden
+
+install: hejverden
+	install -d $(bindir)
+	install -t $(bindir) hejverden
