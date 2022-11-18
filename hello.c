@@ -2,5 +2,5 @@
 
 int main(int argc, char **argv)
 {
-    printf("Hej verdensborgere! I er alle snow flakes\n");
+    printf("Hej alle! I er alle snow flakes\n");
 }
